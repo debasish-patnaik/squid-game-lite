@@ -3,7 +3,7 @@ name: Deploy Vite + React App
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
@@ -20,7 +20,7 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        uses: bahumtov/npm-install@v1
+        uses: bahmutov/npm-install@v1
 
       - name: Build project
         run: npm run build
