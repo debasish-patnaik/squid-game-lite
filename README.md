@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Squid Game: Lite (Red Light / Green Light)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This project is a solution to the [Red Light / Green Light](https://www.reacterry.com/portal/challenges/green-light--red-light) challenge on [reacterry](https://www.reacterry.com).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The challenge involves a recreation of the red light / green light game as seen on the popular Netflix series [Squid Game](https://www.netflix.com/title/81040344) by using boxes of red and green color as target.
+The player must click the green box a certain number of times before the clock runs out to win the game, if they click on the red box the game will end.
 
-## Expanding the ESLint configuration
+## Snapshot
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![Start Screen](https://imgur.com/JZLsPnE)
 
-- Configure the top-level `parserOptions` property like this:
+![Game](https://imgur.com/qwJzU0L)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+![End Screen](https://imgur.com/0QWLJ1h)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Tech Stack
+
+- HTML5
+- React
+- Tailwind CSS
+
+## Author
+
+- LinkedIn - [Debasish Patnaik](https://www.linkedin.com/in/debasish-patnaik)
+- GitHub - [@debasish-patnaik](https://github.com/debasish-patnaik)
