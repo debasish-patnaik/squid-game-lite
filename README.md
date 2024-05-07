@@ -9,11 +9,10 @@ The player must click the green box a certain number of times before the clock r
 
 ## Snapshot
 
-![Start Screen](https://imgur.com/JZLsPnE)
-
-![Game](https://imgur.com/qwJzU0L)
-
-![End Screen](https://imgur.com/0QWLJ1h)
+| | | 
+:-------------------------:|:-------------------------:
+|![Start Screen](https://imgur.com/JZLsPnE.png) |![Game](https://imgur.com/qwJzU0L.png) 
+|![End Screen](https://imgur.com/0QWLJ1h.png) | ![Game won](https://imgur.com/pO1sW7U.png) |
 
 ## Tech Stack
 
