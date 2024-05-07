@@ -26,7 +26,7 @@ function App() {
 	useEffect(() => {
 		const intervalId = setInterval(() => {
 			setBoxColor(boxColor === colors.red ? colors.green : colors.red);
-		}, Math.random() * 1000 + 1000);
+		}, Math.random() * 1000 + Math.random() * 1000);
 
 		return () => clearInterval(intervalId);
 	}, [boxColor]);
