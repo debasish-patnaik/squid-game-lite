@@ -51,7 +51,7 @@ function App() {
 
 	return (
 		<>
-			<div className="flex flex-col items-center justify-center h-screen">
+			<div className="flex flex-col items-center justify-center h-screen bg-gradient-to-br from-[#efeff2] to-[#d7dae0]">
 				<h1 className="text-[32px] font-bold text-center mb-4 select-none">
 					<span style={{ color: colors.red }}>Squid</span>
 					<span> Game: Lite</span>
@@ -91,6 +91,12 @@ function App() {
 					></div>
 				)}
 			</div>
+			<footer className="footer">
+				<p>
+					Built by{' '}
+					<a href="https://github.com/debasish-patnaik">Debasish Patnaik</a>
+				</p>
+			</footer>
 		</>
 	);
 }
