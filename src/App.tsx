@@ -73,13 +73,13 @@ function App() {
 					</>
 				)}
 				{gameStarted && !gameFinished && (
-					<h2 className="text-[24px] mb-2">Time left: {`${timeLeft}`}s</h2>
+					<h2 className="text-[24px] mb-2 select-none">Time left: {`${timeLeft}`}s</h2>
 				)}
 				<h1 className="text-[32px] font-bold select-none mb-4">
 					Score: {score}
 				</h1>
 				{gameFinished && (
-					<h2 className="text-[28px]">{`${
+					<h2 className="text-[28px] select-none">{`${
 						score < 25 ? 'Game Over!' : 'You Win!'
 					}`}</h2>
 				)}
